@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "target": "es2015",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "composite": true,
+        "declaration": true,
+        "declarationMap": true,
+        "rootDir": "./src",
+        "outDir": "./build",
+        "baseUrl": "."
+    },
+    "include": [
+        "./src",
+    ],
+    "references": [
+        {
+            "path": "../a"
+        }
+    ]
+}
