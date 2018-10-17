@@ -3,7 +3,7 @@ const path = require("path");
 
 const allExports = [];
 
-for (let i = 0; i < 100; i++) {
+for (let i = 0; i < 200; i++) {
     const outFile = path.join(__dirname, "packages/a/src", `a${i}.ts`);
     const outStr = `export const a${i} = ${i};`;
     allExports.push(`export * from "./a${i}";`);
