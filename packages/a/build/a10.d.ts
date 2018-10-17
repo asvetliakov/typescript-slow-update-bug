@@ -1,2 +1,2 @@
-export declare const a10x = 10;
+export declare const a10 = 10;
 //# sourceMappingURL=a10.d.ts.map
